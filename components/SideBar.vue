@@ -18,7 +18,7 @@
   <style lang="scss" scoped>
   .app {
     display: flex;
-    overflow-x: hidden; /* Prevents horizontal scroll due to fixed sidebar */
+    overflow-x: hidden; 
   }
   
   .sidebar {
@@ -36,7 +36,7 @@
   }
   
   .sidebar-open {
-    transform: translateX(0); /* Slide in when open */
+    transform: translateX(0);
   }
   
   ul {
@@ -54,11 +54,11 @@
     font-size: 18px;
     padding: 8px 0;
     cursor: pointer;
-    transition: background-color 0.2s ease; /* Smooth background transition */
+    transition: background-color 0.2s ease; 
   }
   
   li:hover {
-    background-color: #444; /* Darken on hover */
+    background-color: #444;
   }
   
   i {
@@ -77,11 +77,11 @@
     border-radius: 10px;
     font-size: 24px;
     cursor: pointer;
-    z-index: 1100; /* Ensure button is above sidebar */
+    z-index: 1100;
   }
   
   .toggle-button:hover {
-    color: #ccc; /* Change color on hover */
+    color: #ccc;
   }
 
   .nav-menu {
